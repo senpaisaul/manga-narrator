@@ -10,7 +10,7 @@
 [![OpenAI](https://img.shields.io/badge/Powered%20by-OpenAI-412991?logo=openai)](https://openai.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-[Demo Video](#demo) • [Features](#features) • [Installation](#installation) • [Usage](#usage)
+
 
 </div>
 
