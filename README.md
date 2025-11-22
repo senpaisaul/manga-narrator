@@ -27,9 +27,10 @@
 
 <div align="center">
 
-| Extension | Settings Page 
+| Extension | Settings Page | InAction
 
-| ![Extension](https://github.com/senpaisaul/manga-narrator/releases/download/v1.0.0/Screenshot.2025-11-22.230642.png) | ![Settings](https://github.com/senpaisaul/manga-narrator/releases/download/v1.0.0/Screenshot.2025-11-22.230615.png)]
+| ![Extension](https://github.com/senpaisaul/manga-narrator/releases/download/v1.0.0/Screenshot.2025-11-22.230642.png) | ![Settings](https://github.com/senpaisaul/manga-narrator/releases/download/v1.0.0/Screenshot.2025-11-22.230615.png) | ![InAction](<img width="1504" height="540" alt="image" src="https://github.com/user-attachments/assets/28f8cde9-0a83-4fa3-b76b-440b58282f28" />)]
+
 
 </div>
 
