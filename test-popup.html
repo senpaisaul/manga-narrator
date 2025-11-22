@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Test Popup</title>
+  <style>
+    body { padding: 20px; font-family: Arial; }
+    button { padding: 10px 20px; margin: 5px; }
+  </style>
+</head>
+<body>
+  <h3>Test Popup</h3>
+  <button id="testBtn">Test Button</button>
+  <div id="output"></div>
+  
+  <script>
+    const output = document.getElementById('output');
+    const testBtn = document.getElementById('testBtn');
+    
+    output.innerHTML = 'Popup loaded<br>';
+    
+    testBtn.addEventListener('click', async () => {
+      output.innerHTML += 'Button clicked<br>';
+      
+      try {
+        output.innerHTML += 'Sending message...<br>';
+        const response = await chrome.runtime.sendMessage({ type: 'GET_STATUS' });
+        output.innerHTML += 'Response: ' + JSON.stringify(response) + '<br>';
+      } catch (error) {
+        output.innerHTML += 'Error: ' + error.message + '<br>';
+      }
+    });
+    
+    output.innerHTML += 'Event listener attached<br>';
+  </script>
+</body>
+</html>

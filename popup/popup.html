@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manga Narrator</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Manga Narrator</h1>
+    
+    <div class="status-section">
+      <div class="status-indicator" id="statusIndicator"></div>
+      <span class="status-text" id="statusText">Ready</span>
+    </div>
+
+    <div class="controls">
+      <button id="startBtn" class="btn btn-primary">Start Narration</button>
+      <button id="pauseBtn" class="btn btn-secondary" disabled>Pause</button>
+      <button id="resumeBtn" class="btn btn-secondary" disabled>Resume</button>
+      <button id="stopBtn" class="btn btn-danger" disabled>Stop</button>
+    </div>
+
+    <div class="error-message" id="errorMessage"></div>
+
+    <div class="settings-link">
+      <button id="settingsBtn" class="btn btn-link">⚙️ Settings</button>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

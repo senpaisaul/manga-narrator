@@ -1,0 +1,64 @@
+# Manga Narrator - Git Ignore File
+
+# Development files
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+*.swo
+*~
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.kiro/
+
+# Node modules (if you add build tools later)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment variables (if you add them)
+.env
+.env.local
+.env.*.local
+
+# Build outputs (if you add build process)
+dist/
+build/
+*.zip
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# API keys and secrets (IMPORTANT!)
+**/api-keys.txt
+**/secrets.json
+**/*secret*
+**/*key*.txt
+
+# Test files
+coverage/
+.nyc_output/
+
+# Debug files
+debug.log
+*.debug
+
+# Personal notes
+notes.md
+TODO.md
+NOTES.txt

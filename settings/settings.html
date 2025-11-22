@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manga Narrator Settings</title>
+  <link rel="stylesheet" href="settings.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Manga Narrator Settings</h1>
+    
+    <form id="settingsForm">
+      <div class="form-group">
+        <label for="apiKey">OpenAI API Key *</label>
+        <input 
+          type="password" 
+          id="apiKey" 
+          placeholder="sk-..." 
+          required
+        >
+        <small>Get your API key from <a href="https://platform.openai.com/api-keys" target="_blank">OpenAI Platform</a></small>
+      </div>
+
+      <div class="form-group">
+        <label for="voice">Voice</label>
+        <select id="voice">
+          <option value="">Default Voice</option>
+        </select>
+        <small>Select the voice for narration</small>
+      </div>
+
+      <div class="form-group">
+        <label for="speechRate">Speech Rate: <span id="rateValue">1.0x</span></label>
+        <input 
+          type="range" 
+          id="speechRate" 
+          min="0.5" 
+          max="2.0" 
+          step="0.1" 
+          value="1.0"
+        >
+        <small>Adjust narration speed (0.5x - 2.0x)</small>
+      </div>
+
+      <div class="form-group">
+        <label for="captureInterval">Capture Interval: <span id="intervalValue">10</span> seconds</label>
+        <input 
+          type="range" 
+          id="captureInterval" 
+          min="3" 
+          max="30" 
+          step="1" 
+          value="10"
+        >
+        <small>Time between screen captures (3-30 seconds)</small>
+      </div>
+
+      <div class="button-group">
+        <button type="submit" class="btn btn-primary">Save Settings</button>
+        <button type="button" id="resetBtn" class="btn btn-secondary">Reset to Defaults</button>
+      </div>
+    </form>
+
+    <div class="success-message" id="successMessage">
+      ✓ Settings saved successfully!
+    </div>
+
+    <div class="error-message" id="errorMessage"></div>
+  </div>
+
+  <script src="settings.js"></script>
+</body>
+</html>
