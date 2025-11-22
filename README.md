@@ -19,7 +19,7 @@
 ## 🎬 Demo
 
 <!-- Replace with your actual demo video -->
-[https://github.com/user-attachments/assets/sample](https://github.com/senpaisaul/manga-narrator/releases/download/v1.0.0/Screen.Recording.2025-11-22.223129.mp4)
+[Video Sample](https://github.com/senpaisaul/manga-narrator/releases/download/v1.0.0/Screen.Recording.2025-11-22.223129.mp4)
 
 *Watch the Manga Narrator in action - capturing, analyzing, and narrating manga with human-like voices!*
 
