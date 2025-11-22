@@ -28,8 +28,8 @@
 <div align="center">
 
 | Extension Popup | Settings Page | In Action |
-|:---:|:---:|:---:|
-| ![Popup](./demo/popup-screenshot.png) | ![Settings](./demo/settings-screenshot.png) | ![Narrating](./demo/narrating-screenshot.png) |
+|:---:|:---:|
+| ![Extension](https://github.com/senpaisaul/manga-narrator/releases/download/v1.0.0/Screenshot.2025-11-22.230642.png) | ![Settings]([./demo/settings-screenshot.png](https://github.com/senpaisaul/manga-narrator/releases/download/v1.0.0/Screenshot.2025-11-22.230615.png)) | 
 
 </div>
 
