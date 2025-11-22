@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Manga Narrator Banner](./demo/banner.png)
+![Manga Narrator Banner](https://github.com/senpaisaul/manga-narrator/releases/download/v1.0.0/48X48.png)
 
 **Transform your manga reading experience with AI-powered narration**
 
