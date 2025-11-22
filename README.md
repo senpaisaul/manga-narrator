@@ -29,7 +29,7 @@
 
 | Extension | Settings Page 
 
-| ![Extension](https://github.com/senpaisaul/manga-narrator/releases/download/v1.0.0/Screenshot.2025-11-22.230642.png) | ![Settings]([./demo/settings-screenshot.png](https://github.com/senpaisaul/manga-narrator/releases/download/v1.0.0/Screenshot.2025-11-22.230615.png)) 
+| ![Extension](https://github.com/senpaisaul/manga-narrator/releases/download/v1.0.0/Screenshot.2025-11-22.230642.png) | ![Settings](https://github.com/senpaisaul/manga-narrator/releases/download/v1.0.0/Screenshot.2025-11-22.230615.png)]
 
 </div>
 
